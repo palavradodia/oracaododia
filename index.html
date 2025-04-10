@@ -1,56 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uma frase de oração inspiradora por dia para fortalecer sua fé.">
   <title>Oração do Dia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background: #f2f2f2;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to bottom, #f3f2f2, #ffffff);
+      color: #333;
+      padding: 30px;
       text-align: center;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
     h1 {
       font-size: 2.5em;
-      color: #333;
+      margin-bottom: 10px;
     }
     .frase {
-      margin-top: 20px;
-      font-size: 1.4em;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      max-width: 600px;
+      font-size: 1.5em;
+      font-style: italic;
+      margin: 30px 0;
+      line-height: 1.6;
+    }
+    .creditos {
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 30px;
+    }
+    .ads {
+      margin: 30px 0;
     }
   </style>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3946673007107872"
+     crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Oração do Dia</h1>
-  <div class="frase" id="frase">Carregando...</div>
-
-  <script>
-    const oracoes = [
-      "Senhor, guia meus passos hoje.",
-      "Entrego este dia em Tuas mãos, ó Deus.",
-      "Fortalece minha fé, mesmo quando tudo parecer difícil.",
-      "Obrigado por mais um amanhecer, Senhor.",
-      "Cuida de mim e da minha família, Pai amado.",
-      "Que a Tua paz me envolva neste novo dia.",
-      "Livra-me de todo mal e ilumina meu caminho.",
-      "Coloca Tuas mãos sobre meus sonhos e projetos.",
-      "Ensina-me a confiar mais e a temer menos.",
-      "Toma o controle da minha vida, Senhor."
-    ];
-    const hoje = new Date();
-    const index = hoje.getDate() % oracoes.length;
-    document.getElementById("frase").innerText = oracoes[index];
-  </script>
+  <div class="container">
+    <h1>Oração do Dia</h1>
+    <div class="frase">
+      “Senhor, que eu nunca perca a fé nos dias difíceis, que eu saiba confiar no Teu tempo e na Tua vontade. Que a paz que vem de Ti reine no meu coração, mesmo quando tudo ao redor parecer confuso.”
+    </div>
+    <div class="ads">
+      <!-- Anúncio do Google AdSense -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3946673007107872"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <div class="creditos">
+      © 2025 Oração do Dia - Desenvolvido com fé e amor 💖
+    </div>
+  </div>
 </body>
 </html>
